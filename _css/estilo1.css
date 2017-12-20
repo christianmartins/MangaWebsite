@@ -1,0 +1,1099 @@
+
+/* CSS Document */
+
+	body{
+		background:#eee;
+		/*background-image:;
+		background-repeat: no-repeat;*/
+		color:rgba(0,0,0,1);
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+		width: 100%;
+		height: 100%;				
+	}
+	h1 { 
+	font-family: Verdana, Arial, Sans-serif;
+		font-size:120%;
+		color:#FFF ;
+		margin: 10px 10px 0px 10px;
+
+		border-bottom-left-radius:13px;
+		border-bottom-right-radius:2px;
+		border-top-left-radius:2px;
+		border-top-right-radius:10px;
+	 	background: #3C3C3C none repeat scroll 0% 0%;
+		text-align: center;
+		white-space: normal;
+		overflow: hidden;
+		line-height: 14px;
+		height: 35px;
+		width:700px;
+		display: table-cell;
+		vertical-align: middle;
+		padding: 4px 5px;
+		 	width:1%;
+	}
+	
+	ul {
+		list-style: none;
+	}
+	
+	li {
+	
+	}
+
+	a{
+		font-family: Arial, sans-serif;
+		color: #000000;
+		text-decoration: none;
+	}
+	
+	p{
+		font-family: Arial, sans-serif;
+		color: #000000;
+	}
+	
+	/**** GERAL ****/
+	/* div#geral{
+		background-color: #FFFFFF;
+		margin:  70px auto 0px auto;
+		padding: 10px 10px 10px 10px ;
+		width: 1100px;
+	}*/
+	
+
+	
+	/**** MENU PRINCIPAL ****/
+	nav#menu{
+		display: block;		
+		height: 63px;
+		margin: 0px;
+		padding: 0px;
+		text-align:center;
+		
+			
+	}
+	
+	/* (tira a "bolinha" do menu, transforma em maiscula, ajusta a posição do menu)*/
+	nav#menu ul {
+		list-style: none;
+		text-transform: uppercase;
+		position: fixed;	
+		background-color:rgba(0,0,0,.87);
+		top: 0px;
+		left: 0px;
+		right: 0px;
+		margin: 0px;
+		padding: 0px;
+		z-index: 5;
+	}
+	
+	/* ( deixa o menu de lado(horizontal), cor de fundo cinza, etc) */
+	nav#menu li{
+		display: inline-block;
+		padding: 5px 20px 5px 20px;
+		margin: 2px 30px 2px 30px;
+		transition: background-color 1s;
+
+	}
+	
+	/* (efeito de passar o mouse, e mudar o fundo para cor cinza)*/
+	nav#menu li:hover {
+		background-color:rgba(0,0,0,1.00);		
+	}
+	
+	/* ( deixa o menu com letra preta,sem letra sublinhada) */
+	nav#menu a{
+		color: rgba(255,255,255,.8);
+		text-decoration: none;
+	
+	}
+	
+	
+	nav#menu a:hover {
+		color: #FFFFFF;
+	}
+	
+	nav#menu p{
+		color: #FFF;
+		font-family:;
+		/*color:#e5d5a7;*/
+
+	}
+	
+	.logo img{
+		height:50px;
+		vertical-align:middle;
+
+			
+	}
+	
+	li.buscar {
+		display:block;
+		position:absolute;
+		top:13px;
+		left:93%;
+	}
+	
+	li.buscar img{
+		height:21px;
+
+	}
+
+/* background-attachment: scroll ~> a imagem rola com a pagina
+	background-attachment: fixed ~> imagem fixa */
+	
+	/**** BANNER ****/
+	
+#banner {
+	background:url(../imagens/pattern-populares.png);
+	}
+	
+	
+#banner #banner_img {
+	width: 100%;
+	height: 209px;
+	margin:0px;
+	padding:0px;
+	background-position: center bottom;
+	background-repeat: no-repeat;
+	text-align:center;
+	background:rgba(15,108,253,0.95);
+	
+}
+
+#banner a {
+	border: solid 1px #333;
+	background-color: #F7F7F7;
+	padding: 5px;
+	text-decoration: none;
+	color: #000;
+	border-radius:5px;
+
+}
+
+	#banner a:hover {
+		border: solid 1px #333;
+		text-decoration: underline;
+		background-color: #333;
+		color: #FFF;
+		text-decoration:none;
+		
+	}
+	
+	#banner a.hover {
+		background-color: #333;
+		color: #FFF;
+		
+	}
+	
+	#banner img {
+		width:462px;
+		height:209px;
+		background-position: center bottom;
+		background-repeat: no-repeat;
+	}
+	
+	#banner #botoes {
+		
+		color: #FFF;
+		font-size: 11px;
+		text-align: center;
+		white-space: normal;
+		overflow: hidden;
+		line-height: 14px;
+		width:100%;
+		vertical-align: middle;
+		padding: 0px;
+		margin:0px;
+		display:block;
+		
+	}
+
+	#banner #botoes ul {
+		display:block;
+		text-align: center;
+	
+	}
+	
+	#banner #botoes li {
+		display:inline-block;
+		margin:0px 15px 0px 15px;	
+		text-align: center;
+	
+	}
+	
+	#banner #botoes a{
+		border-radius: 7px 2px 12px 7px;
+		height: 30px;
+		width: 100px;
+		display: table-cell;	
+		vertical-align: middle;
+		margin:20px;
+		
+
+
+
+	}
+	
+
+	
+	#banner #botoes span {
+		font-size:13px;
+
+	}
+
+
+	
+	/**** DESTAQUES ****/
+	 
+	 div#destaques {
+		background: url(../imagens/backg1.jpg);
+		border-radius:4px 20px 10px 10px;
+		border-top: 3px solid #090909;
+		margin: 5px 20px 0px 20px;
+		padding: 0px;
+		text-align: center;
+		display:block;
+	
+	 }
+	 
+	div#destaques-dentro{
+		background: url(../imagens/pattern-populares.png);
+		border-radius:4px 20px 10px 10px;
+		margin:0px;
+		padding: 0px;
+		text-align: center;
+		display:block;
+		
+	}
+	 div#destaques h1{
+		 text-align: left;
+		 margin: 0px 0px 0px 0px;
+		 padding: 0px 10px 2px 10px;
+   		 width: 155px;		 
+		 text-align: center;	 
+	}
+	 
+	 div#destaques ul{
+		 list-style: none;
+		 margin: 5px 0px 0px 0px;
+		 padding: 0px 0px 20px 0px;	
+		 text-align:center;
+
+		 
+	 }
+	 
+	  div#destaques li {
+	 	display: inline-block;
+		text-align:center;
+	 	margin: 5px;
+		padding: 10px;
+
+	 }
+	
+	div#destaques p{
+		background: #262626 none repeat scroll 0% 0%;
+		width: 124px;
+		color: #FFF;
+		font-size: 11px;
+		text-align: center;
+		border-radius: 7px 2px 12px 7px;
+		-webkit-border-radius: 7px 2px 12px 7px;
+		-moz-border-radius: 7px 2px 12px 7px;
+		white-space: normal;
+		overflow: hidden;
+		line-height: 14px;
+		height: 35px;
+		/*display: table-cell;*/
+		vertical-align: middle;
+		padding: 4px 5px;
+		 
+	}
+	
+	
+	
+	div#destaques p:hover {
+	 	background:#000000;
+	}
+	 
+	div#destaques img{
+		opacity: 0.83;
+		transition: 1s;		 
+		background-repeat: no-repeat;
+		background-position: center center;
+		background-size: 116px auto;
+		width: 116px;
+		height: 178px;
+		border: 2px solid #fff;
+		-webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+		box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.3);
+		-webkit-border-radius: 10px;
+		-webkit-border-top-right-radius: 2px;
+		-moz-border-radius: 10px;
+		-moz-border-radius-topright: 2px;
+		border-radius: 10px;
+		border-top-right-radius: 2px;
+		margin-bottom: 3px;
+	}
+	
+	div#destaques img:hover {
+		opacity: 1.0;
+		filter: alpha(opacity=100); 
+	}
+	
+
+/* Index - Junção de login-parceiros + Lançamentos*/
+div#meio{
+	display:block;
+	
+}
+	/*  Index Login - Parceiros */
+	div#login-parceiros{
+		border-top:3px solid #000000;
+		display: block;
+		width:45%;
+		margin: 0px 20px 10px 20px;
+		border-radius:20px;
+		float:right;
+		z-index:1;
+		border-top-left-radius: 2px;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 20px;
+		display: block;
+		background-color: rgba(255, 255, 255, 0.5);
+		background:url(../imagens/backg1.jpg);
+		
+	}
+	
+	div#log-p-color{
+		width:100%;
+		height:100%;
+		border-top-left-radius: 2px;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 20px;
+		background-image: repeating-linear-gradient(135deg, transparent, transparent 2px, #e9e1de 1px, #e9e1de 3px);
+	}
+	
+	/* Login*/	
+	
+	div#index-login{
+	
+		font-family:"calibri";
+		text-align:center;
+		margin: 10px 0px 10px 0px;	
+		display: block;
+
+	}
+	
+	#tabela-index{
+		height:200px;
+		margin:0 auto;
+		padding:10px;
+		border:none;
+		margin-top:3%;
+	}
+	
+		 
+	.txt-index{
+		height:35px;
+		width:250px;
+		border:none;
+		border-radius:5px;
+		background:#E0E0E0;	
+		margin:0px 0px 0px -60%;
+	}
+	
+	.botao-index{
+		width: 200px;
+		height:30px;
+		background:#DBDBDB;
+		border-radius:4px;
+		border:1px solid #CCC;
+		margin-left:77%;
+		margin-top:1.5%;
+		margin-bottom:1.5%;
+	}
+	
+	.botao-index:hover{
+		background:#B8B8B8;
+	}
+	
+	
+
+		
+	.cadastre_se{
+		text-decoration:underline;
+		text-align:center;
+		margin:auto;
+		padding-left:0%;
+		position:relative;
+		left:77%;
+	}
+
+	/* PARCEIROS*/
+	div#parceiros {
+		text-align:center;
+		margin: 50px 0px 0px 0px;
+		padding:0px;
+
+	}
+	
+	div#parceiros ul{
+
+		margin: 10px 0px 3px 0px;
+		padding: 0px 0px 0px 0px;
+	
+	}
+	
+	div#parceiros li {
+		margin: 3px 0px 3px 0px;
+		padding: 0px 0px 0px 0px;
+	
+	}
+		
+	div#parceiros img{
+		margin: 0px 0px 0px 0px;
+		padding:0px;
+		height: 40px;
+		width: 70px;
+	}
+	div#parceiros p:hover {
+		color:#909090;
+		
+		
+	
+	}
+	
+
+	/**** LANÇAMENTOS ****/
+	div#lancamento-fundo-colorido {
+		background:url(../imagens/backg1.jpg);
+		background-size: cover;
+		display: block;
+		width:50%;
+		margin: 0px 20px 30px 20px;
+		padding: 0px 0px 0px 0px;
+		border-radius:20px;	
+		
+		}
+	
+		section#lancamentos {	
+		margin: 20px 0px 30px 0px;
+		padding: 0px 0px 10px 0px;
+		border-top: 3px solid rgba(0,0,0,1.00);
+		border-radius:4px 20px 0px 0px;
+		background:url(../imagens/lancamentos-pattern.png);		
+	 }
+	 
+	 section#lancamentos h1{
+		 text-align: left;
+		 margin: 0px 0px 0px 0px;
+		 padding: 0px 10px 2px 10px;
+   		 width: 190px;
+		 text-align:center;
+	}
+	 
+	 section#lancamentos ul {	
+		 list-style: none;
+		 margin: 0px 0px 0px 0px;
+		 padding: 0px 0px 0px 0px;
+		 
+	}
+	
+	 section#lancamentos li {
+		border-bottom: 0.5px solid rgba(171,171,171,1.00);
+	 	margin: 10px 0px 0px 0px;
+		padding: 2px 2px 0px 2px;
+		height: 170px;
+	
+		
+
+	 }
+	 
+	  section#lancamentos a{
+	 	color: #474747 ;
+		text-decoration: none;	
+			
+	 }
+	 
+	  section#lancamentos p{
+		font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, sans-serif;
+		color: #353535;
+		line-height: 1;
+		text-decoration: none;
+		position:relative;
+		left: 120px;
+		top: -165px;
+		z-index: 3;
+		width: 300px;	
+		margin: 12px 0px 0px 0px;
+		font-size: 25px;
+				
+	 }
+	 
+	 section#lancamentos p.numero{
+		color: #FFFFFF;
+		background:#4B4B4B;
+		width: 50px;
+		padding: 5px;
+		margin: 5px 0px 0px 1px;
+		text-align:center;
+		border-bottom-right-radius: 10px;	
+		border-top-right-radius: 2px;	
+		border-bottom-left-radius: 1px;
+		
+	 }
+	 
+	 section#lancamentos p.numero:hover{
+		background-color: #606060;		
+	 }
+	 
+	 section#lancamentos img {	
+	 	width:100px;
+		height:150px;
+		border: 2.5px solid rgba(243,243,243,1.00);
+		margin:0px 0px 0px 10px;
+		
+	}
+	 
+		/**** FIM LANÇAMENTOS ****/
+	 
+	
+	  
+	 /**** RODAPÉ ****/
+	
+	 footer#rodape {
+		display: block;
+		background-color:#393838;
+		border-top: 1px solid #606060;
+		margin: 0px 0px 0px 0px;
+		padding: 0px 0px 0px 0px;
+	}
+	 
+	footer#rodape ul {
+		display: block;
+		list-style: none;
+		margin: 10px 0px 0px 10px;
+		padding: 0px 0px 0px 0px;		
+	}
+	
+	footer#rodape li {
+		display: inline-block;
+		background-color:rgba(0,0,0,.87);
+		padding: 17px 25px 17px 25px;
+		margin: 0px 5px 10px 0px;
+		transition: background-color 1s;
+		width: 15px;
+		height: 20px;	
+	}
+	 
+	footer#rodape li:hover {
+		background-color:rgba(0,0,0,1);		
+	}	
+
+	footer#rodape a {
+		color: rgba(255,255,255,.8);
+		text-decoration: none;	
+	}
+		
+	footer#rodape a:hover {
+		color: #FFFFFF;
+	}
+	
+	footer#rodape p {
+		color:#ABABAB;	
+	}
+	
+	footer#rodape p.inf {
+		border-top:1px solid #B1B0B0;
+		margin: 0px 60px 0px 60px;
+		padding: 15px 0px 15px 0px;
+		text-align: center;
+	}
+	
+	footer#rodape img {
+		width: 15px;
+		height: 20px;	
+		margin: 0px;
+		padding: 0px;
+	}	
+	
+	div#topo1{
+		 display:block;
+		 position:absolute;
+		 left: 88%;
+		 margin:0px px 0px 0px;	
+	}
+	
+	footer#rodape li.top {
+		background: none;
+		color: rgba(0,0,0,1.00);
+		margin: 0px;
+		padding: 0px 0px 0px 0px;	
+			
+	}
+	
+	footer#rodape li.top p {
+		color: #7F7F7F;
+		margin:5px 0px 0px 0px;
+		padding:0px 0px 0px 0px;
+		text-align: right;
+	}
+	
+		
+	
+	footer#rodape img.foto-topo {
+	position:absolute;
+	width: 24px;
+	height: 18px;
+	margin:0px 0px 0px 60px;	
+	}
+	
+	footer#rodape li.twitter {
+		background-color: #00aced		
+	}
+	
+	footer#rodape li.facebook {
+		background-color: #3b5998;		
+	}
+	
+	
+	footer#rodape li.facebook img {
+		width: 12px;
+		height: 20px;	
+	}
+	
+	footer#rodape li.twitter img {
+		width: 20px;
+		height: 20px;	
+	}
+	
+
+	div#mapa {
+		width:200px;
+		text-align:left;
+		display:block;
+		position:absolute;
+		left:250px;
+	
+	}
+	
+	div#rede-sociais {
+		text-align:left;
+		display:block;
+		position:absolute;
+		left:550px;
+	}
+	
+	div#rede-sociais p {
+		margin:0px;
+		padding:0px;
+	}
+	div#rede-sociais li {
+		border-radius: 3px;
+	}
+	
+	
+	div#newsletter {
+		width:200px;
+		text-align:left;
+		margin:10px 0px 40px 0px;
+		
+	}
+	
+	.caixa-n{
+		border-radius:2px;
+	}
+	
+	.botao-n{
+		border-radius:2px;
+	}
+		
+	div#newsletter input{
+		margin:4px 0px 4px 0px;
+	}
+	p.letra-pe {
+		font-size:80%;
+	}
+	
+		/***** FIM DO RODAPÉ*****/
+		
+	 
+	 /**** PAGINA EX-MANGÁS - ESTA SE CHAMANDO TITULOS! ****/
+	nav#lista ul {
+		display: block;
+		list-style: none;
+		text-transform: uppercase;
+		margin: 10px;
+		padding: 2px;
+		text-align:center;
+		
+	 }
+	 
+	 nav#lista h1 {
+	
+	 }
+	 
+	nav#lista li {
+		display: inline-block;
+	
+
+	} 
+
+	nav#lista p:hover {
+		background-color:rgba(79,79,79,1.00);		
+	}
+	
+	nav#lista a {
+		text-decoration: none;		
+	}
+	
+	nav#lista a:hover {
+		color: #FFFFFF;
+	}
+	
+	nav#lista p{
+		color: #FFFFFF;
+		text-align:center;
+		margin: 0px;
+		padding: 0px;
+		background: #262626 none repeat scroll 0% 0%;
+		width: 28px;
+		color: #FFF;
+		font-size: 14px;
+		text-align: center;
+		border-radius: 7px 2px 12px 7px;
+		-webkit-border-radius: 7px 2px 12px 7px;
+		-moz-border-radius: 7px 2px 12px 7px;
+		white-space: normal;
+		overflow: hidden;
+		line-height: 14px;
+		height: 35px;
+		display: table-cell;
+		vertical-align: middle;
+		padding: 4px 5px;
+		
+			
+			
+	}
+		 /**** FIM PAGINA EX-MANGÁS - ESTA SE CHAMANDO TITULOS! ****/
+	
+		
+	 /* PAGINAS CONTATOS */
+	 nav#menu-contato {
+		 display:block;	 
+		 margin: 0px;
+		 padding: 0px;
+		 height: 100px;
+		 text-align:center;
+	}
+	 	 
+	 nav#menu-contato ul{
+		list-style: none;
+		background-color:rgba(144,34,36,.85);
+		text-transform: uppercase;
+		margin: 0px 0px 0px 0px;		 
+	}
+	
+	nav#menu-contato li{
+		display: inline-block;
+		padding: 5px;
+		margin: 10px;
+		transition: background-color 1s;
+	}
+	
+	 
+	
+	nav#menu-contato li:hover{
+		background-color:rgba(144,34,36,1);
+	}
+	
+		nav#menu-contato a{
+		color: rgba(255,255,255,.8);
+		text-decoration: none;
+	}
+	
+	section#texto {
+		display: block;
+		text-align:center;	
+	}
+	
+	section#texto h1{
+	 	width:1%;
+		
+		
+	 }
+	
+	article#texto-1 {
+		width: 40%;
+		height:100px;
+		position: relative;
+		z-index:3;
+		left:10%;
+		text-align:left;
+		
+	} 
+	
+	article#texto-1 p {
+		color:#188F00;
+	}
+	
+	article#texto-2 {
+		width: 40%;
+		height:100px;
+		position: absolute;
+		left: 55%;
+		top:24%;
+		text-align:left;
+	
+	
+		
+	}
+	
+	article#texto-2 p {
+		color: #E0070B;
+	}
+	
+	
+	/* FIM PAGINAS CONTATOS */
+	
+	/* PAG CADASTRO*/
+	div#cad-pag{
+		
+	
+	}
+		
+	div#cad-pag h1 {
+	
+	 } 
+	
+	
+	div#form-cad{
+		padding:10px;
+		margin:0px;
+		font-family:"calibri";
+	
+	}
+	
+		
+	#tabela-form{
+		height:250px;
+		margin:0 auto;
+		padding:10px;
+		border:none;
+		margin-right:17%;
+		margin-top:3%;
+	}
+		 
+	.txt{
+		height:35px;
+		width:250px;
+		border:none;
+		border-radius:5px;
+		background:#D8D8D8;	
+	
+	}
+	
+	.botao{
+		width: 200px;
+		height:30px;
+		background:#DFDFDF;
+		border-radius:4px;
+		border:1px solid #CCC;
+		margin-left:16%;
+		margin-bottom:1.5%;
+	}
+	
+	.botao:hover{
+		background:#B8B8B8;
+	}
+	
+	.style1 {
+		color: #FF0000;
+		font-size: x-small;
+	}
+	
+	.style2 {
+		margin-left:20%;
+		color: #FF0000;
+		font-size: x-small;
+	}
+	.style3 {
+		color: #0000FF;
+		font-size: x-small;
+	}
+		
+	#confirmar-cad{
+		margin:0px 3px 5px 0px;
+	}
+		
+	/*PAGINA TITULOS (SINOPSE- E CAPITULOS)*/
+	
+	div#format-manga {
+		margin: 20px 20px 0px 20px;
+
+		height:400px;
+		list-style:none;
+	}
+	
+	div#format-manga ul {
+	
+	}
+	
+	div#format-manga img {
+		witdh: 228px;
+		height: 354px;
+	    border: 2px solid #fff;
+   		border-top-left-radius: 15px;
+		border-top-right-radius: 2px;
+		border-bottom-right-radius: 10px;
+		border-bottom-left-radius: 10px;
+		margin:0px;
+		padding:0px;
+		float:left;
+	
+	}
+	
+	div#texto-titulo {
+	
+		width:75%;
+		margin:0px 0px 0px 220px;
+	}
+	
+	div#texto-titulo p {
+	
+		margin:10px 0px 0px 80px;
+		width:700px;
+
+	}
+	
+	div#texto-titulo h1{
+		width:30%;
+		background: #262626 none repeat scroll 0% 0%;
+		width: 200px;
+		color: #FFF;
+		font-size: 15px;
+		text-align: center;
+		border-radius: 7px 2px 12px 7px;
+		white-space: normal;
+		overflow: hidden;
+		line-height: 14px;
+		height: 35px;
+		display: table-cell;
+		vertical-align: middle;
+		padding: 4px 5px;
+	
+	
+	}
+	
+	div#texto-titulo h2{
+	 width:30%;
+	 text-align:center;
+
+
+	}
+		
+	
+	div#capitulos {
+		background: #f7f7f7;
+		text-align:center;
+		margin: 5px 20px 0px 20px;
+		padding: 0px;
+		border-radius:4px 20px 10px 10px;
+		border-top: 3px solid #090909;
+		display:block;
+	
+	}
+
+		
+	div#capitulos h1 {
+		width:30%;
+		padding:0px;
+		margin: -16px 0px 0px -40px;
+		text-align: center;
+		background: #000;
+		color:#fff;	
+		}
+		
+		
+	div#capitulos li{
+	
+		border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+   		padding: 0 0 2px 6px;
+	}
+		
+	div#capitulos p {
+		
+		color: #5a574f;
+		text-align: left;
+		border-radius: 3px;
+		padding:0px;
+		margin:10px 0px 10px 114px;
+		font-size: 22px;
+		display: block;
+		line-height: 24px;
+	}
+	
+	/* Pagina dos Episodio em geral */
+	nav#menu ul.menu-epi {
+		position:absolute;
+	}
+	
+	div#geral-epi {
+		list-style: none;
+		text-decoration: none;
+		text-align: center;
+		background-color: #252424;
+		margin:0px;
+		padding:0px;
+		height:100%;
+	}
+	
+	div#geral-epi ul {
+
+			
+	}
+	
+	div#geral-epi li {
+		display: inline-block;
+			
+	}
+	
+	div#geral-epi p{
+		color:#B8B8B8;
+		text-align:center;
+			
+	}
+		
+	/* Quem Somos */
+	
+		div#quem-somos{
+		display: block;
+		text-align:center;
+	
+		}
+	
+	div#quem-somos ul {
+		display:inline-block;}
+	
+	div#quem-somos li {
+		margin: 10px;
+		list-style: none;
+		display:inline-block;
+		}
+	
+	div#texto-quemsomos{
+		display:inline-table;
+		width:1000px;
+		text-align:left;
+		margin:10px 0px 30px 0px;
+	}
+	
+	
+	div#fotos img{
+		width:250px;
+		height:200px;
+		}
